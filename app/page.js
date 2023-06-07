@@ -10,6 +10,7 @@ import {
   faAngleRight,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 //this are course details pass this as props from previous page
 const course = {
@@ -297,7 +298,7 @@ export default function Home() {
                   type="video/mp4"
                 />
                 <p>
-                  Your browser doesn't support HTML video. Here is a
+                  Your browser doesn&apos;t support HTML video. Here is a
                   <a href="myVideo.mp4">link to the video</a> instead.
                 </p>
               </video>
